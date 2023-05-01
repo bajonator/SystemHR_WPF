@@ -14,7 +14,7 @@ namespace SystemHR_WPF.Models.Converters
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            return new LoginParams { Window = values[0] as LoginWindow, PasswordBox = values[1] as PasswordBox };
+            return new LoginParams { Window = values[0] as Window, PasswordBox = values[1] as PasswordBox };
         }
 
         public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)

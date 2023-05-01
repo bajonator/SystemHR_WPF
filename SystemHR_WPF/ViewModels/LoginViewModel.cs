@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Input;
 using SystemHR_WPF.Commands;
 using SystemHR_WPF.Models;
+using SystemHR_WPF.Views;
 
 namespace SystemHR_WPF.ViewModels
 {
@@ -46,6 +47,8 @@ namespace SystemHR_WPF.ViewModels
             if (Login())
             {
                 CloseWindow(loginParams.Window);
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.ShowDialog();
             }
         }
 

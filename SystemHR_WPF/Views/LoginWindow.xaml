@@ -43,6 +43,7 @@
         <StackPanel Grid.Row="2">
         <Label Content="Hasło"/>
             <PasswordBox
+                
                 Name="PasswordBox"
                 Margin="50,10,50,0"
                 FontSize="20" 
