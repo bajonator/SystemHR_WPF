@@ -11,7 +11,7 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
-        Name="LoginsWindow">
+        Name="LoginWindowView">
 
     <Window.Resources>
         <converters:LoginParamsConverter x:Key="loginParamsConverter"/>

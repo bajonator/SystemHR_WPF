@@ -43,7 +43,7 @@ namespace SystemHR_WPF.ViewModels
         {
             var loginParams = obj as LoginParams;
             UserSettings.Password = loginParams.PasswordBox.Password;
-
+            
             if (Login())
             {
                 CloseWindow(loginParams.Window);
